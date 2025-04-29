@@ -10,7 +10,12 @@ class Mahasiswa{ //commit membuat class mahasiswa
     float nilai;
 
     void printData()
-    
+    {
+        cout << "NIM :" << nim << endl;
+        cout << "NAMA :" << nama << endl;
+        cout << "NILAI :" << nilai << endl;
+        
+    }
        
 };
 
