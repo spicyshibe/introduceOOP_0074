@@ -14,11 +14,17 @@ class Mahasiswa{ //commit membuat class mahasiswa
         cout << "NIM :" << nim << endl;
         cout << "NAMA :" << nama << endl;
         cout << "NILAI :" << nilai << endl;
-        
+
     }
        
 };
 
 int main(){
+    Mahasiswa mhs;
+    mhs.nim = 2024;
+    mhs.nama = "Harits";
+    mhs.nilai = 90.5;
 
+    mhs.printData();
+    
 }
